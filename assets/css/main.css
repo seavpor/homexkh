@@ -16,10 +16,12 @@ body{
 .navigation{
 	position: relative;
 }
+
 .logo{
 	height: 100px;
 	align-content: center;
 }
+
 .navigation  .logo_wrapper{
 	padding: 40px 0px;
 }
@@ -95,6 +97,7 @@ body{
 	color: #fff;
 	font-weight: 600;
 }
+
 .hero{
 	display: flex;
 }
@@ -105,6 +108,11 @@ body{
 	float: left;
 	width: 50%;
 	flex: 1;
+}
+
+.hero .right{
+	color: rgba(255,255,255,0.5);
+	font-size: 50px;
 }
 
 .hero hgroup span{
